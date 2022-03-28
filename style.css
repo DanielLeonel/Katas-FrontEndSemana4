@@ -1,0 +1,129 @@
+img{
+    width: 120px;
+}
+
+.pokedex{
+    width: 832px;
+    height: 532px;
+    background-image: url(./back.jpg);
+    display: flex;
+    align-items: flex-end;
+}
+
+.pokedex-left{
+    width: 400px;
+    height: 532px;
+}
+
+.pokedex-right{
+    width: 430px;
+    height: 532px;
+}
+
+.pokedex-left-empty{
+    height: 190px;
+}
+.pokedex-left-image{
+    height: 150px;
+    width: 300px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.pokedex-left-image p{
+    display:inline-block;
+    color: white;
+}
+.pokedex-left-empty2{
+    height: 100px;
+}
+.pokedex-left-input{
+    height: 60px;
+    margin-left: 150px;
+}
+.boton{
+    background-color: transparent;
+    border-color: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    height: 50px;
+    width: 50;
+}
+
+.texto{
+    background-color: transparent;
+    width: 90px;
+    height: 50px;
+    border-color: transparent;
+    font-size: 15px;
+    color: rgb(219, 233, 182);
+}
+::placeholder{
+    color: aliceblue;
+} 
+
+.pokedex-right-empty{
+    height: 170px;
+}
+.pokedex-right-description{
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+textarea{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pokedex-right-empty2{
+    height: 180px;
+}
+.pokedex-right-button{
+    margin-left: 79px;
+    margin-right: 230px;
+}
+
+/* .pokedex-content{
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.pokedex-content-elementos{
+    width: 440px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+}
+
+.pokedex-content-elementos-cuadro{
+    margin-left: -50px;
+    margin-top: 110px;
+}
+
+.texto{
+    background-color: transparent;
+    width: 90px;
+    height: 50px;
+    border-color: transparent;
+    font-size: 15px;
+    color: rgb(219, 233, 182);
+}
+.boton{
+    background-color: transparent;
+    margin-left: 350px;
+    margin-top: -38px;
+    border-color: transparent;
+    color: aliceblue;
+    font-size: 15px;
+}
+::placeholder{
+    color: aliceblue;
+} */
+
+/* body{
+	background-image: url("data:image/svg+xml,%3Csvg width='76' height='76' viewBox='0 0 76 76' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='76' height='76' fill='%23E5CFAF'/%3E%3Ccircle cx='38' cy='38' r='23' stroke='%23C07C2B' stroke-width='2'/%3E%3Cline x1='14' y1='37.558' x2='31.8605' y2='37.558' stroke='%23C07C2B' stroke-width='2'/%3E%3Cline x1='43.0233' y1='37.558' x2='60.8837' y2='37.558' stroke='%23C07C2B' stroke-width='2'/%3E%3Ccircle cx='37.4419' cy='37.4418' r='5.69767' stroke='%23C07C2B' stroke-width='2'/%3E%3Ccircle cx='37.4418' cy='37.4418' r='1.73256' stroke='%23C07C2B'/%3E%3C/svg%3E");
+  background-color: #E5CFAF;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
